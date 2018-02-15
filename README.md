@@ -1,5 +1,7 @@
 # pai-proxy
 
+Build status: [![CircleCI](https://circleci.com/gh/fightforthefuture/pai-proxy.svg?style=svg)](https://circleci.com/gh/fightforthefuture/pai-proxy)
+
 I can't get SSL to work reliably with Webflow. I don't know why. I also don't want to be responsible for all copy updates to webflow sites, so here's a workaround:
 
 1. Make changes to the site in webflow and click publish.
