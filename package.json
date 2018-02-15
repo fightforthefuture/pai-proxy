@@ -1,0 +1,16 @@
+{
+  "name": "pai-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node fetch-site.js",
+    "deploy": "aws s3 sync dist s3://www.stopajitpai.org --delete",
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1"
+  }
+}
